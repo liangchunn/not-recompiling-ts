@@ -4,7 +4,7 @@ Webpack does not recompile when ambient type definition files are changed. This 
 
 ## Steps to reproduce
 1. Run `yarn start`
-2. Remove `b: string` in `src/types.ts`
+2. Remove `b: string` in `src/types.ts` and save
 3. Watch CLI, no errors.
 4. <kbd>CTRL+C</kbd> and `yarn start` -> error
 

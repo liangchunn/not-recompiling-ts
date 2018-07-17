@@ -14,7 +14,7 @@ Webpack does not recompile when ambient type definition files are changed. This 
 - `typescript@2.9.2`
 
 ## Webpack config file
-The webpack configuration lives inside the `typescript-node-scripts` package: `node_modules/typescript-node-scripts/bin/webpack.config.dev.js`
+The webpack configuration lives inside the `typescript-node-scripts` package: `node_modules/typescript-node-scripts/lib/webpack.config.dev.js`
 
 ```ts
 const paths = require('./paths')
